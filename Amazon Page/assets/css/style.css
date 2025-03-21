@@ -1,6 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
+main {
+  padding: 25px;
+}
 .bg-dark {
   color: #eaeded;
   background-color: #222f3e;
@@ -17,3 +20,13 @@ body {
   color: #eaeded;
   background-color: #f56600;
 }
+
+.card {
+  height: 400px;
+  width: 23%;
+  background-position: center;
+  display: inline-block;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
