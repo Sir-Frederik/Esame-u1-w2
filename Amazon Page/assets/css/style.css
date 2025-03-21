@@ -6,8 +6,12 @@ main {
 }
 .bg-dark {
   color: #eaeded;
-  background-color: #222f3e;
+  background-color: #364759;
 }
+.bg-darker {
+  background-color: #222f3f;
+}
+
 .py-1 {
   padding: 1rem 0;
 }
@@ -25,8 +29,22 @@ main {
   height: 400px;
   width: 23%;
   background-position: center;
+  background-size: cover;
   display: inline-block;
   margin: 10px;
   box-sizing: border-box;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#logoAlto {
+  width: 10%;
+  height: 10%;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  margin: 10px;
+}
