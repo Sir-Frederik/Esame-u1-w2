@@ -15,6 +15,9 @@ main {
 .py-1 {
   padding: 1rem 0;
 }
+.py-2 {
+  padding: 1rem;
+}
 .text-center {
   text-align: center;
   width: 100%;
@@ -47,4 +50,19 @@ main {
 
 .menu {
   margin: 10px;
+}
+
+.text-white {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#banner {
+  padding-top: 50px;
+  height: 110px;
+  text-align: center;
 }
