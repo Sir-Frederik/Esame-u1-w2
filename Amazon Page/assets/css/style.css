@@ -1,1 +1,19 @@
-/* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+.bg-dark {
+  color: #eaeded;
+  background-color: #222f3e;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.bg-yellow {
+  color: #eaeded;
+  background-color: #f56600;
+}
