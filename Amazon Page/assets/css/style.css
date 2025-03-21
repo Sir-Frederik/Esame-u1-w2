@@ -2,7 +2,8 @@ body {
   font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 main {
-  padding: 25px;
+  padding: 30px;
+  background-color: #e9edee;
 }
 .bg-dark {
   color: #eaeded;
@@ -29,7 +30,7 @@ main {
 }
 
 .card {
-  height: 400px;
+  height: 500px;
   width: 23%;
   background-position: center;
   background-size: cover;
@@ -65,4 +66,56 @@ h2 {
   padding-top: 50px;
   height: 110px;
   text-align: center;
+  margin-top: 20px;
+}
+
+.noDecoration {
+  text-decoration: none;
+}
+
+#contenitore {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contenitore span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.immaginiGrandi {
+  margin: 10px;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.didascalia {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.didascalia a {
+  color: #1b5b60;
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+}
+
+#logoBasso {
+  width: 11%;
+  height: 11%;
+}
+
+#ultimoDiv {
+  padding: 70px;
 }
